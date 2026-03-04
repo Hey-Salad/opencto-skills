@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "skills": [
+    {
+      "id": "cto-playbook",
+      "name": "CTO & Engineering Excellence Playbook",
+      "path": "cto-playbook/SKILL.md",
+      "category": "engineering-leadership",
+      "description": "CTO-grade standards for architecture, delivery, quality, and security.",
+      "recommended_default": true
+    },
+    {
+      "id": "dj-playbook",
+      "name": "World-Class DJ Skills Playbook",
+      "path": "dj-playbook/SKILL.md",
+      "category": "creator-media",
+      "description": "DJ performance, transitions, set design, and career playbook.",
+      "recommended_default": false
+    }
+  ]
+}
