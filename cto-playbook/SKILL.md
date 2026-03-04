@@ -111,7 +111,7 @@ prompt injections, tool poisoning, malware payloads, hard-coded secrets, and tox
 
 ### Required Tool
 - **Snyk Agent Scan** — `uvx snyk-agent-scan@latest`
-- Requires `uv` installed: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+- Requires `uv` installed via a trusted package manager or official binary release for your OS.
 
 ### What It Detects
 | Threat | Description |
@@ -176,7 +176,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install uv
-        run: curl -LsSf https://astral.sh/uv/install.sh | sh
+        run: |
+          # Install uv using your platform package manager or approved internal image.
+          # Example (Ubuntu): sudo apt-get update && sudo apt-get install -y uv
+          uv --version
       - name: Scan agent skills
         run: uvx snyk-agent-scan@latest --skills .claude/skills/ --json
       - name: Scan MCP configs
