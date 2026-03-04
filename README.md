@@ -28,9 +28,20 @@ cp -R opencto-skills/dj-playbook ~/.codex/skills/
 
 Restart Codex/OpenClaw after installing.
 
+## skills.sh Discoverability
+
+For discoverability, standalone skill repositories are also published:
+
+- https://github.com/Hey-Salad/cto-playbook-skill
+- https://github.com/Hey-Salad/dj-playbook-skill
+
 ## Security Scan (Recommended)
 
 ```bash
 uvx snyk-agent-scan@latest --skills cto-playbook/SKILL.md
 uvx snyk-agent-scan@latest --skills dj-playbook/SKILL.md
 ```
+
+## Contributing
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
