@@ -1,21 +1,363 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "generatedBy": "opencto-skills-pack",
   "skills": [
+    {
+      "id": "adaptive-learning-playbook",
+      "name": "Adaptive Learning Playbook",
+      "path": "opencto/opencto-skills/adaptive-learning-playbook/SKILL.md",
+      "description": "Organisational adaptability, experimentation, competitive intelligence, and continuous learning systems.",
+      "category": "adaptability-learning",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/adaptive-learning-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "communication-playbook",
+      "name": "Communication Playbook",
+      "path": "opencto/opencto-skills/communication-playbook/SKILL.md",
+      "description": "Internal, external, written, meeting, and cross-functional communication frameworks.",
+      "category": "communication",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/communication-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
     {
       "id": "cto-playbook",
       "name": "CTO & Engineering Excellence Playbook",
-      "path": "cto-playbook/SKILL.md",
+      "path": "opencto/opencto-skills/cto-playbook/SKILL.md",
+      "description": "CTO-grade guardrails for architecture, engineering quality, delivery, and agent security.",
       "category": "engineering-leadership",
-      "description": "CTO-grade standards for architecture, delivery, quality, and security.",
-      "recommended_default": true
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/cto-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "customer-experience-playbook",
+      "name": "Customer Experience Playbook",
+      "path": "opencto/opencto-skills/customer-experience-playbook/SKILL.md",
+      "description": "Customer support, journey mapping, feedback loops, retention, loyalty, and customer success systems.",
+      "category": "customer-experience",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/customer-experience-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
     },
     {
       "id": "dj-playbook",
       "name": "World-Class DJ Skills Playbook",
-      "path": "dj-playbook/SKILL.md",
-      "category": "creator-media",
-      "description": "DJ performance, transitions, set design, and career playbook.",
-      "recommended_default": false
+      "path": "opencto/opencto-skills/dj-playbook/SKILL.md",
+      "description": "Professional DJ techniques, transitions, set architecture, crowd reading, and performance development.",
+      "category": "creative-performance",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/dj-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "financial-management-playbook",
+      "name": "Financial Management Playbook",
+      "path": "opencto/opencto-skills/financial-management-playbook/SKILL.md",
+      "description": "Cash flow, FP&A, fundraising, pricing, tax planning, and startup finance operating models.",
+      "category": "financial-management",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/financial-management-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "leadership-strategy-playbook",
+      "name": "Leadership & Strategy Playbook",
+      "path": "opencto/opencto-skills/leadership-strategy-playbook/SKILL.md",
+      "description": "Executive strategy, governance, change leadership, and risk-informed decision frameworks.",
+      "category": "leadership-strategy",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/leadership-strategy-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "legal-compliance-playbook",
+      "name": "Legal Compliance Playbook",
+      "path": "opencto/opencto-skills/legal-compliance-playbook/SKILL.md",
+      "description": "Regulatory operations, contracts, governance, privacy, AML/CFT, and audit-ready compliance controls.",
+      "category": "legal-compliance",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/legal-compliance-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "marketing-brand-playbook",
+      "name": "Marketing Brand Playbook",
+      "path": "opencto/opencto-skills/marketing-brand-playbook/SKILL.md",
+      "description": "Brand positioning, content, growth, SEO, PR, campaigns, and go-to-market strategy.",
+      "category": "marketing-brand",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/marketing-brand-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "operations-execution",
+      "name": "Operations Execution",
+      "path": "opencto/opencto-skills/operations-execution/SKILL.md",
+      "description": "Execution systems, operating cadence, delivery management, process discipline, and operational improvement.",
+      "category": "operations-execution",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/operations-execution/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "partnerships-ecosystem",
+      "name": "Partnerships Ecosystem",
+      "path": "opencto/opencto-skills/partnerships-ecosystem/SKILL.md",
+      "description": "Strategic alliances, channel models, co-selling, partner governance, and ecosystem-led growth.",
+      "category": "partnerships-ecosystem",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/partnerships-ecosystem/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "people-culture-playbook",
+      "name": "People & Culture Playbook",
+      "path": "opencto/opencto-skills/people-culture-playbook/SKILL.md",
+      "description": "People ops, hiring, onboarding, performance systems, retention, and culture design.",
+      "category": "people-culture",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/people-culture-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "product-innovation-playbook",
+      "name": "Product & Innovation Playbook",
+      "path": "opencto/opencto-skills/product-innovation-playbook/SKILL.md",
+      "description": "PMF, roadmapping, discovery, experimentation, and innovation operating models.",
+      "category": "product-innovation",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/product-innovation-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "risk-management-playbook",
+      "name": "Risk Management Playbook",
+      "path": "opencto/opencto-skills/risk-management-playbook/SKILL.md",
+      "description": "Enterprise risk, resilience, BCP/DR, fraud controls, insurance, and operational risk frameworks.",
+      "category": "risk-management",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/risk-management-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "sales-playbook",
+      "name": "World-Class Sales & Revenue Generation Playbook",
+      "path": "opencto/opencto-skills/sales-playbook/SKILL.md",
+      "description": "ICP, qualification, pipeline, forecasting, negotiation, and revenue operations playbooks.",
+      "category": "sales-revenue",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/sales-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "sustainability-playbook",
+      "name": "Sustainability Playbook",
+      "path": "opencto/opencto-skills/sustainability-playbook/SKILL.md",
+      "description": "ESG strategy, social responsibility, due diligence, climate risk, and sustainability reporting.",
+      "category": "sustainability-social-responsibility",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/sustainability-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
+    },
+    {
+      "id": "tech-data-playbook",
+      "name": "Tech Data Playbook",
+      "path": "opencto/opencto-skills/tech-data-playbook/SKILL.md",
+      "description": "Technology strategy, cloud architecture, security, data governance, AI/ML, and engineering systems.",
+      "category": "technology-data",
+      "required_env": [],
+      "safety": {
+        "scan_required": true,
+        "scan_command": "uvx snyk-agent-scan@latest --skills opencto/opencto-skills/tech-data-playbook/SKILL.md"
+      },
+      "compatibility": {
+        "codex": true,
+        "openclaw": true
+      },
+      "recommended_commands": [
+        "npm run lint",
+        "npm run test",
+        "npm run build"
+      ]
     }
   ]
 }
